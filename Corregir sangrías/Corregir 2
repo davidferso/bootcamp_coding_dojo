@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html> <!--padre-->
+    <head> <!--hijo de html--> <!--padre de title-->
+        <title> <!--hijo de head-->
+            Básico II
+        </title>
+    </head>
+    <body> <!--hermano de head--> <!--hijo de html--><!--padre de table, h1, ul-->
+        <table> <!--hijo de body--><!--hermano de h1, ul--><!--padre de thead, tbody-->
+            <thead><!--hijo de table--><!--padre de tr-->
+                <tr><!--hijo de thead--><!--padre de th-->
+                    <th>Nombre</th><!--hijo de tr--><!--hermano de th-->
+                    <th>Apellido</th><!--hijo de tr--><!--hermano de th-->
+                    <th>Email</th><!--hijo de tr--><!--hermano de th-->
+                    <th>Contraseña</th><!--hijo de tr--><!--hermano de th-->
+                </tr>
+            </thead>
+            <tbody><!--hijo de table--><!--hermano de thead-->
+                <tr><!--hijo de tbody--><!--padre de td-->
+                    <td>Brendan</td> <!--hijo de tr--><!--hermano de td-->
+                    <td>>Stanton</td> <!--hijo de tr--><!--hermano de td-->
+                    <td>brendanrocks@gmail.com</td><!--hijo de tr--><!--hermano de td-->
+                    <td> ContraseñaFalsa123 </td><!--hijo de tr--><!--hermano de td-->
+                </tr>
+            </tbody>
+        </table>
+        <h1>Aquí hay una lista de mis cosas favoritas:</h1><!--hijo de body--><!--hermano de table, ul-->
+        <ul><!--hijo de body--><!--hermano de table, ul--><!--padre de li-->
+            <li>Comida</li><!--hijo de ul--><!--hermano de li-->
+            <li>Ancho de banda</li><!--hijo de ul--><!--hermano de li-->
+            <li>Café</li><!--hijo de ul--><!--hermano de li-->
+            <li>Playa</li><!--hijo de ul--><!--hermano de li-->
+        </ul>
+    </body>
+</html>
