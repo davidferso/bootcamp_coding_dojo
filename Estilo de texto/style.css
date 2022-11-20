@@ -1,0 +1,23 @@
+h1 {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-family: cursive;
+    background-color: rebeccapurple;
+}
+
+h3 {
+    text-align: right;
+    font-family: cursive;
+    background-color: rgb(19, 179, 228);
+    text-decoration: underline;
+}
+
+#cloud {
+    color:aqua;
+}
