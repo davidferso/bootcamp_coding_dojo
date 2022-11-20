@@ -1,0 +1,35 @@
+button {
+    margin: 20px;
+}
+
+#search {
+    width: 200px;
+    height: 50px;
+    color: aqua;
+    border: 10% dotted green;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 100px;
+}
+
+#plus {
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border: 10%;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 50%;
+    background-color: aqua;
+
+}
+
+#create-account {
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: rgb(81, 81, 241);
+    box-shadow: 10px 5px black;
+}
