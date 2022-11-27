@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    }
+.nav {
+    background-color: dimgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title {
+    color: whitesmoke;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li {
+    display: flex;
+    padding: 10px;
+}
