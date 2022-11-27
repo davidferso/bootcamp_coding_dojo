@@ -1,0 +1,31 @@
+.main {
+    width: 900px;
+    background-color: bisque;
+    margin: 0px auto;
+}
+h1, .row4 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.row1 {
+    background-color: aqua;
+}
+.row2 {
+    background-color: blueviolet;
+}
+.row3 {
+    background-color: chartreuse;
+}
+.row1, .row2, .row3 {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+img.octocat {
+    height: 200px;
+}
+.link1 {
+    margin-left: 4px;
+}
