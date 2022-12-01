@@ -43,11 +43,12 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.col-ninja-1, .col-ninja-2 {
+.col-ninja-1-1, .col-ninja-1-2, .col-ninja-2-1, .col-ninja-2-2 {
     padding: 20px;
 }
-.col-ninja-1{
+.col-ninja-1-1, .col-ninja-2-1{
     display: flex;
+    width: 30%;
     flex-direction: column;
     align-items: center;
 }
