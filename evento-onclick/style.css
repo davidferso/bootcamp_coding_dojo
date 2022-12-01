@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    }
+.container {
+    margin: 0px auto;
+    width: 800px;
+}
+.row1 {
+    display: flex;
+    background-color: grey;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.search {
+    width: 40%;
+    border: 2px solid black;
+    background-color: white;
+    color: lightgrey;
+}
+#search-txt {
+    padding-left: 5px;
+}
+.login-btn {
+    width: 8%;
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    box-shadow: 3px 2px black;
+}
+.row2 {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+}
+.ninja-1, .ninja-2 {
+    margin-bottom: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-ninja-1, .col-ninja-2 {
+    padding: 20px;
+}
+.col-ninja-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ninja-txt, .noun-txt, .plural-txt {
+    padding-bottom: 10px;
+}
+.ninja-txt {
+    font-weight: bold;
+    font-size: xx-large;
+}
+.noun-txt, .ninja-italic {
+    font-style: italic;
+}
+.likes-1-txt, .likes-2-txt {
+    width: 80px;
+    background-color: goldenrod;
+    border: 2px solid black;
+    box-shadow: 3px 2px black;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+}
+.col-1 {
+    width: 70%;
+    margin-right: 20px;
+}
+.col-2 {
+    width: 30%;
+    height: 90px;
+    border: 2px solid black;
+    padding: 20px;
+}
+.row2-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.add-def {
+    background-color: lightgreen;
+    border: 2px solid black;
+    box-shadow: 3px 2px black;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+}
+#you {
+    font-weight: bold;
+}
