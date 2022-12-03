@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    }
+.container {
+    margin: 0px auto;
+    width: 800px;
+}
+.row1 {
+    display: flex;
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+}
+h1 {
+    color: white;
+}
+.row-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.row2 {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+}
+.col-1 {
+    width: 16%;
+    height: fit-content;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.image-avatar, .add-avatar, .james-doe {
+    padding: 10px 0px 10px 0px;
+}
+.image-avatar {
+    width: 90px;
+    border-radius: 50%;
+}
+.james-doe {
+    font-size: x-large;
+}
+.col-2 {
+    width: 82%;
+    height: fit-content;
+}
+.col-2-row1, .col-2-row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.like-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.like-txt, .like-btn {
+    padding: 0px 20px 0px 20px;
+}
+.like-btn {
+    background-color: rgb(204, 176, 52);
+    border-color: black;
+    border-style: solid;
+    box-shadow: 4px 3px black;
+}
+.card {
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
