@@ -1,0 +1,51 @@
+div {
+    margin: 0px auto;
+    font-size: small;
+    width: 370px;
+}
+
+.divform {
+    border-style: solid;
+    border-color: grey;
+    border-radius: 10px;
+    border-width: 1px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+label {
+    width: 30%;
+    font-size: medium;
+    color: grey;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    margin: 5px;
+}
+
+.pwd {
+    -webkit-text-security: square;
+}
+
+.formdata {
+    display: flex;
+}
+
+.formdata1,
+.formdata2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.formdata1 {
+    width: 25%;
+}
+
+.formdata2 {
+    align-items: flex-start;
+    padding-left: 5px;
+}
