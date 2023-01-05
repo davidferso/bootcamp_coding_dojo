@@ -10,15 +10,15 @@ const UserForm = props => {
     const passwordValidatorRef = useRef(null);
     const confirmPasswordValidatorRef = useRef(null);
 
-    const validateFirstName = (e) => e.target.value.length < 3 & e.target.value.length !== 0
+    const validateFirstName = (e) => e.target.value.length < 2 & e.target.value.length !== 0
         ? firstNameValidatorRef.current.innerHTML = "First Name must be at least 2 characters"
         : firstNameValidatorRef.current.innerHTML = "";
 
-    const validateLasttName = (e) => e.target.value.length < 3 & e.target.value.length !== 0
+    const validateLasttName = (e) => e.target.value.length < 2 & e.target.value.length !== 0
         ? lastNameValidatorRef.current.innerHTML = "Last Name must be at least 2 characters"
         : lastNameValidatorRef.current.innerHTML = "";
 
-    const validateEmail = (e) => e.target.value.length < 6 & e.target.value.length !== 0
+    const validateEmail = (e) => e.target.value.length < 5 & e.target.value.length !== 0
         ? emailValidatorRef.current.innerHTML = "Email must be at least 5 characters"
         : emailValidatorRef.current.innerHTML = "";
 
