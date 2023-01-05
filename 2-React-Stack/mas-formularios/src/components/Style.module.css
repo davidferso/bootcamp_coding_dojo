@@ -49,3 +49,10 @@ input {
     align-items: flex-start;
     padding-left: 5px;
 }
+
+.validators {
+    width: fit-content;
+    display: flex;
+    margin-left: 10px;
+    color: black;
+}
