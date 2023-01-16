@@ -9,7 +9,7 @@ function App() {
 
   const llamarPokemones = async () => {
     try {
-      const responseData = await axios.get('https://pokeapi.co/api/v2/pokemon/')
+      const responseData = await axios.get('https://pokeapi.co/api/v2/pokemon/?limit=807')
       setResponseData(responseData.data.results)
     }
     catch (error) {
@@ -21,12 +21,13 @@ function App() {
   return (
     <div className='App'>
       <button onClick={llamarPokemones}>Fetch Pokemon</button>
-      {
-        responseData.map(pokemon => (
-          <ul>
+      <ol>
+        {
+          responseData.map(pokemon => (
             <li key={pokemon.name}>{pokemon.name}</li>
-          </ul>
-        ))}
+          ))
+        }
+      </ol>
 
 
     </div>
