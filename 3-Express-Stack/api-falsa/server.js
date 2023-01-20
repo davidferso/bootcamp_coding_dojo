@@ -36,7 +36,6 @@ app.get("/api/companies/new", (req, res) => {
     res.send(new Empresa());
 });
 
-let usuario_empresa = Object.assign(new Usuario(), new Empresa())
 app.get("/api/user/company", (req, res) => {
     res.json({usuario: new Usuario(), empresa: new Empresa()});
 });
