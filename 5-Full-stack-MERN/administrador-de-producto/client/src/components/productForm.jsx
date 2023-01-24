@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import ProductsAll from "./productsAll";
 
 const ProductForm = () => {
     const [title, setTitle] = useState("");
@@ -24,22 +25,25 @@ const ProductForm = () => {
 
     return (
         <div>
-            <h2>Product Manager</h2>
-            <form onSubmit={submitHandler}>
-                <p>
-                    <label>Title</label>
-                    <input type="text" onChange={(e) => setTitle(e.target.value)}></input>
-                </p>
-                <p>
-                    <label>Price</label>
-                    <input type="number" onChange={(e) => setPrice(e.target.value)}></input>
-                </p>
-                <p>
-                    <label>Description</label>
-                    <input type="text" onChange={(e) => setDescription(e.target.value)}></input>
-                </p>
-                <button type="submit">Create</button>
-            </form>
+            <div>
+                <h2>Product Manager</h2>
+                <form onSubmit={submitHandler}>
+                    <p className="form-control bg-light ">
+                        <label className="form-label col-sm-3">Title</label>
+                        <input className="col-sm-3" type="text" onChange={(e) => setTitle(e.target.value)}></input>
+                    </p>
+                    <p className="form-control bg-light">
+                        <label className="form-label col-sm-3">Price</label>
+                        <input className="col-sm-3" type="number" onChange={(e) => setPrice(e.target.value)}></input>
+                    </p>
+                    <p className="form-control bg-light">
+                        <label className="form-label col-sm-3">Description</label>
+                        <input className="col-sm-3" type="text" onChange={(e) => setDescription(e.target.value)}></input>
+                    </p>
+                    <button type="submit">Create</button>
+                </form>
+            </div>
+            <ProductsAll />
         </div>
     );
 }
