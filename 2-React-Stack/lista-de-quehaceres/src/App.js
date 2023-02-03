@@ -1,12 +1,9 @@
-import './App.css';
-import FruitForm from './components/fruitForm';
+import TareasForm from "./components/tareasForm";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <TareasForm />
     </div>
   );
 }
